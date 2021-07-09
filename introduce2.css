@@ -1,0 +1,356 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/*ー↑Reset CSS↑ー*/
+
+
+
+
+/*ここからスタート*/
+a{
+  text-decoration: none;
+  display:block;
+  color:#333333;
+}
+ul{
+  list-style: none;
+  display: inline-block;
+}
+
+p{
+  font-size:15px;
+}
+
+body{
+  font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+    font-size: 1px;
+    line-height: 1.9;
+    text-align: left;
+    /*width:70%;*/
+    width:960px;
+    margin:0 auto;
+    color: #333333;
+}
+
+header{
+  margin-top:100px;
+  height:74px;
+}
+
+
+.header-logo{
+  font-size:40px;
+  text-align: left;
+  float:left;
+  font-family: 'Cherry Swash', cursive;
+}
+
+.sns{
+  font-size:36px;
+  padding-top:6px;
+}
+
+.sns a{
+  padding-left:6%;
+  margin:0;
+  padding-bottom:0;
+  float:right;
+}
+
+.checkbtn,
+.icon1,
+.icon2{
+  display:none;
+}
+
+nav{
+  font-size:16px;
+  text-align: right;
+}
+
+.tnav{
+  font-family: 'Noto Sans JP', serif;
+  opacity:0.5;
+  float:left;
+  margin-left:15px;
+}
+
+#nav2{
+  opacity:1;
+}
+
+#nav-icon{
+  display:none;
+}
+
+h2{
+  font-size:60px;
+  font-weight:100;
+  opacity:0.4;
+  text-align: center;
+  margin:40px 0 60px;
+  font-family:'Lato',serif;
+}
+
+
+.background{
+  font-size:20px;
+  line-height:50px;
+}
+
+.box2{
+  padding:60px 0;
+  font-size:16px;
+  margin:0 auto;
+}
+
+span{
+  font-weight:900;
+  float:left;
+}
+
+#icon10,
+#icon11{
+  font-size:24px;
+}
+
+.box2 p{
+  font-size:16px;
+  margin-left:20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:960px){
+  body{
+    width:90%;
+  }
+
+  img{
+    width:100%;
+  }
+}
+
+@media(max-width:600px){
+  @media(max-width:600px){
+    body{
+      width:100%;
+    }
+    img{
+      width:100%;
+    }
+    header{
+      margin-top:20px;
+    }
+    .header-logo{
+      width:100%;
+      text-align:center;
+    }
+    .sns{
+      display:none;
+    }
+
+    #nav-icon{
+      display:block;
+    }
+
+    .icon1,
+    .icon2{
+      display: block;
+      position:absolute;
+      top:10px;
+      left:2%;
+      font-size:30px;
+    }
+
+    nav{
+      background-color:#EEE8AA;
+      position:absolute;
+      top:-2px;
+      left:0;
+      text-align:left;
+      width:26%;
+      border:1px solid black;
+      transform: translateX(-100%);
+      padding:20px 3% 0 3%;
+      height:100%;
+      z-index:10;
+    }
+
+    nav ul{
+      padding-top:50px;
+    }
+
+    .tnav{
+      width:80%;
+      padding:10px 0 10px 20%;
+      margin-left:0;
+      border-bottom:1px solid black;
+    }
+
+    #nav-icon{
+      font-size:24px;
+      padding:0 0 0 20%;
+      border-bottom:none;
+
+    }
+
+
+    #nav-icon a{
+      float:left;
+      margin-right:20%;
+    }
+
+    .icon2{
+      padding-top:30px;
+      display:block;
+      width:90%;
+      font-size:18px;
+      text-align:right;
+      color:black;
+    }
+
+
+    #menu-btn:checked ~ nav {/*チェック入ってるとき ~ メニューが*/
+        transform:translateX(0%);/*追加*/
+        transition:0.4s;
+  }
+}
+@media(max-width:500px){
+  span{
+    font-size:10px;
+  }
+  .box2 p{
+    font-size:10px;
+  }
+  #icon10,
+  #icon11{
+    font-size:15px;
+  }
+
+
+
+
+}
